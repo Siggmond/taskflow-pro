@@ -1,5 +1,15 @@
 # 🚀 TaskFlow Pro
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Vue](https://img.shields.io/badge/Vue-3-42b883?logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+![Pinia](https://img.shields.io/badge/Pinia-State_Management-yellow?logo=pinia&logoColor=white)
+![Stars](https://img.shields.io/github/stars/Siggmond/taskflow-pro?style=social)
+
+
+
+
 **TaskFlow Pro** is a production-style **project management SaaS frontend** built with **Vue 3 + TypeScript**.  
 It demonstrates how I design, structure, and ship **real-world frontend applications**: feature-first architecture, clear state boundaries, role-based access control, and predictable UX—even under failure.
 
