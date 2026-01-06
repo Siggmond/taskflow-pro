@@ -111,4 +111,4 @@ MIT
 
 ---
 
-> If you like this project, feel free to explore the codebase, fork it, or adapt the architecture for your own work.
+> If you like this project , feel free to explore the codebase , fork it , or adapt the architecture for your own work 🔥 .
