@@ -6,7 +6,7 @@ It demonstrates how I design, structure, and ship **real-world frontend applicat
 The app runs fully client-side using a **mocked REST API persisted in `localStorage`**, making it portable and easy to run without backend setup.
 
 **Author:** Ahmad  
-GitHub: **@Siggmond**
+**GitHub:** [@Siggmond](https://github.com/Siggmond)
 
 ---
 
@@ -35,11 +35,11 @@ GitHub: **@Siggmond**
 
 - **Vue 3** (Composition API)
 - **TypeScript**
-- **Pinia**
+- **Pinia** (State Management)
 - **Vue Router**
-- **Vite**
-- **Tailwind CSS**
-- **Axios**
+- **Vite** (Build Tool)
+- **Tailwind CSS** (Styling)
+- **Axios** (API Client)
 - **Mock REST API** (Axios adapter + `localStorage`)
 
 ---
@@ -48,14 +48,12 @@ GitHub: **@Siggmond**
 
 This project is structured like a real product—not a demo.
 
-- **Feature-first modules** (`src/modules/*`)
-- **Store / Service split**
-  - Stores manage state & orchestration
-  - Services are the only API boundary
-- **Single API surface**
-  - Centralized HTTP client with normalized errors
-- **Defensive UX**
-  - Unexpected runtime or API issues are surfaced clearly
+* **Feature-first modules** (`src/modules/*`): Organized by domain rather than file type.
+* **Store / Service split**: 
+    * Stores manage state & orchestration.
+    * Services are the only API boundary.
+* **Single API surface**: Centralized HTTP client with normalized errors.
+* **Defensive UX**: Unexpected runtime or API issues are surfaced clearly to the user.
 
 > The goal is maintainability, predictability, and clarity—not shortcuts.
 
@@ -70,29 +68,43 @@ src/
 ├─ store/       # Global stores (toasts, shared state)
 ├─ components/  # Reusable UI primitives
 ├─ router/      # Routes + auth guards
+
 ▶️ Getting Started
+
 Requirements
-Node.js 18+ (tested with Node 20)
+Node.js 18+ (Tested with Node 20)
 
-bash
-Copy code
+npm or pnpm
+
+Installation
+Clone the repository.
+
+Install dependencies:
+
+Bash
+
 npm install
-npm run dev
-Vite will print the local URL (usually http://localhost:5173).
+Run the development server:
 
-##👤 Demo Accounts
-Role	Email	Password
+Bash
+
+npm run dev
+Open the local URL printed in your terminal (usually http://localhost:5173).
+
+👤 Demo Accounts
+
 Admin	admin@taskflow.pro	Admin123!
-User	member@taskflow.pro	Member123!
+Usermember@taskflow.proMember123!
 
 🔮 Possible Next Steps
-Real backend integration (JWT + database)
 
-File attachments
-
-Notifications (in-app / email)
+[ ] Real backend integration (JWT + database)
+[ ] File attachments for tasks
+[ ] Notifications (in-app / email)
 
 📜 License
 MIT
 
 If you like this project, feel free to explore the codebase, fork it, or adapt the architecture for your own work.
+
+
