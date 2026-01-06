@@ -35,11 +35,11 @@ GitHub: **@Siggmond**
 
 - **Vue 3** (Composition API)
 - **TypeScript**
-- **Pinia** (state management)
+- **Pinia**
 - **Vue Router**
 - **Vite**
 - **Tailwind CSS**
-- **Axios** (centralized API client)
+- **Axios**
 - **Mock REST API** (Axios adapter + `localStorage`)
 
 ---
@@ -63,24 +63,19 @@ This project is structured like a real product—not a demo.
 
 ## 📁 Folder Structure (Simplified)
 
+```text
 src/
-├─ api/ # HTTP client + mock backend
-├─ modules/ # Feature domains (auth, projects, tasks, users)
-├─ store/ # Global stores (toasts, shared state)
-├─ components/ # Reusable UI primitives
-├─ router/ # Routes + auth guards
+├─ api/         # HTTP client + mock backend
+├─ modules/     # Feature domains (auth, projects, tasks, users)
+├─ store/       # Global stores (toasts, shared state)
+├─ components/  # Reusable UI primitives
+├─ router/      # Routes + auth guards
+▶️ Getting Started
+Requirements
+Node.js 18+ (tested with Node 20)
 
-yaml
+bash
 Copy code
-
----
-
-## ▶️ Getting Started
-
-### Requirements
-- **Node.js 18+** (tested with Node 20)
-
-```bash
 npm install
 npm run dev
 Vite will print the local URL (usually http://localhost:5173).
@@ -91,18 +86,13 @@ Admin	admin@taskflow.pro	Admin123!
 User	member@taskflow.pro	Member123!
 
 🔮 Possible Next Steps
-
-Real backend (JWT + database)
+Real backend integration (JWT + database)
 
 File attachments
 
 Notifications (in-app / email)
 
-
 📜 License
-
 MIT
 
----
-
-> If you like this project, feel free to explore the codebase, fork it, or adapt the architecture for your own work.
+If you like this project, feel free to explore the codebase, fork it, or adapt the architecture for your own work.
