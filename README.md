@@ -85,7 +85,6 @@ src/
 
 ### Authentication & Theme
 ![Login Light](docs/screenshots/01-login-light.png)
-![Login Dark](docs/screenshots/02-login-dark.png)
 
 ### Workspace & Projects
 ![Dashboard](docs/screenshots/03-dashboard-shell.png)
@@ -100,9 +99,6 @@ src/
 ![Activity Log](docs/screenshots/09-activity-log.png)
 ![Admin Users](docs/screenshots/10-admin-users-directory.png)
 ![RBAC Member View](docs/screenshots/11-rbac-member-view.png)
-
-### Error Handling
-![Error Toast](docs/screenshots/12-error-toast.png)
 
 ---
 
